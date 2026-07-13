@@ -35,6 +35,12 @@ body {
     text-align: center;
 }
 
+.ti-haze {
+   content: "\efaa";
+    font-size: 48px;    
+    
+}
+
 .search {
     margin: 20px 0;
 }
