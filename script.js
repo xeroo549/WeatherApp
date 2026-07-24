@@ -33,6 +33,7 @@ addEventListener('DOMContentLoaded', function() {
     }
     
     search_button.addEventListener('click', async function() {
+        gtag('event', 'search_weather_btn')
         await fetchCityCoords();
         await fetchWeatherData(current_lat, current_lon);
     });
